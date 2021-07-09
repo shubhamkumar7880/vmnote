@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e9eaec;
+}
+
+header {
+  background-color: white;
+  margin-top: 35px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1 {
+  color: #4b0082;
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  padding: 20px 80px;
+}
+.logo2 {
+  color: orange;
+}
+#up {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  color: #4b0082;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+h2 {
+  text-align: center;
+  color: #4682b4;
+}
+.note-container {
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  min-width: 300px;
+  min-height: 170px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#notebtn {
+  color: #4b0082;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.add_note {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin: 20px;
+}
+
+h4 {
+  margin: 0;
+  color: #4682b4;
+}
+
+#adTitle {
+  margin: 10px 0;
+  font-size: 13px;
+  border-radius: 3px;
+  border: solid #4b0082;
+  width: 100%;
+}
+textarea {
+  margin: 10px 0;
+  font-size: 13px;
+  border-radius: 3px;
+  border: solid #4b0082;
+  width: 100%;
+}
+.btn {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+}
+
+.write_note {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.DOM {
+  display: flex;
+  flex-wrap: wrap;
+}
+.delete {
+  color: #4b0082;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>VM Note</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>
+            VM
+            <h1 class="logo2">Note</h1>
+          </h1>
+        </div>
+        <input type="text" placeholder="Search..." id="up" />
+      </header>
+
+      <main>
+        <div class="main_container" id="main_container">
+          <div class="add_note">
+            <div class="write_note">
+              <h4>Add a Title</h4>
+              <input type="text" id="adTitle" placeholder="Enter the Title" />
+              <h4>Add a note</h4>
+              <textarea
+                id="addTxt"
+                cols="30"
+                rows="10"
+                placeholder="Enter your Note here...."
+              ></textarea>
+              <button id="notebtn">Add Note</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h2>Your Notes</h2>
+        <hr />
+        <div class="DOM" id="DOM"></div>
+      </main>
+    </div>
+    <script src="scrpit.js"></script>
+  </body>
+</html>
